@@ -7,29 +7,41 @@ const UIStrings = {
   /** Additional description of a Lighthouse audit that tells the user how they can improve image loading by using webp in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
   uses_webp_images: "",
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by lazy loading images that are initially offscreen in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  offscreen_images: "",
+  offscreen_images: "Install a [Blazy Module] (https://www.drupal.org/project/blazy) to provide a lazy load and multi-serve images to save bandwidth and server requests. The user will have faster load times and save data usage if they don't browse the whole page.",
   /** Additional description of a Lighthouse audit that tells the user how they can improve site loading performance by reducing the total bytes delivered by their page in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
   total_byte_weight: "",
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by reducing the amount of render blocking resources present on their page, in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
   render_blocking_resources: "",
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by minifying their CSS files in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  unminified_css: "",
+  unminified_css: "Drupal core have already Aggregate options can minified the CSS files you just need to enable 'Aggregate CSS files' in Configuration » Performance page,  Check the Enabled checkbox Aggregate CSS files, Save configuration",
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by minifying their Javascript files in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  unminified_javascript: "",
+  unminified_javascript: "Drupal core have aleady Aggregate options can minfied your JS files you just needs to enable 'Aggregate JavaScript files' in Configuration » Performance page ,  Check the Enabled checkbox for Aggregate JavaScript files, Save configuration",
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by encoding animated images as video, in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
   efficient_animated_content: "",
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by removing unused Javascript files in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
   unused_javascript: "",
   /** Additional description of a Lighthouse audit that tells the user how they can improve their site by enabling long caching in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  uses_long_cache_ttl: "",
+  uses_long_cache_ttl: "You can check and increase long cache lifetime in Configuration » Performance page 'Browser and proxy cache maximum age' ",
   /** Additional description of a Lighthouse audit that tells the user how they can improve site performance by optimizing images, in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  uses_optimized_images: "",
+  uses_optimized_images: "You can install end enable [ImageMagick module] (https://www.drupal.org/project/imagemagick) to fix image optimization issue",
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance via enabling text compression in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
   uses_text_compression: "",
   /** Additional description of a Lighthouse audit that tells the user how they can improve performance by using responsive images in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
-  uses_responsive_images: "",
+  uses_responsive_images: "Drupal core provides `Responsive Image` module to load the images that have been specifically sized for the user screen based on breakpoints [Learn More] (https://www.drupal.org/docs/8/mobile-guide/responsive-images-in-drupal-8)",
   /** Additional description of a Lighthouse audit that tells the user how they can improve the time to first byte speed metric, in the context of the Drupal CMS platform. This is displayed after a user expands the section to see more. No character length limits. Links in (parenthesis) become link texts to additional documentation. */
   time_to_first_byte: "",
+
+  redirects: "",
+
+  user_timings: "",
+
+  uses_rel_preconnect: "",
+
+  uses_rel_preload: "",
+
+  critical_request_chains: "",
+
+  dom_size: "",
 };
 
 module.exports = {
